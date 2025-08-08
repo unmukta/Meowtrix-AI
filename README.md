@@ -21,17 +21,19 @@
    git clone https://github.com/yourusername/Meowtrix-AI.git
    cd Meowtrix-AI
 
-2. Create and activate virtual environment
+2. Rename ok folder to .git 
+
+3. Create and activate virtual environment
 
 python -m venv venv
 .\venv\Scripts\activate   # Windows
 
 
-3. Install dependencies
+4. Install dependencies
 
 pip install -r requirements.txt
 
-4. Download sample images
+5. Download sample images
 
 python download_images.py
 
@@ -53,10 +55,4 @@ Python 3.8+
 OpenCV
 scikit-learn
 Pillow
-
-🙌 Credits
-
-StyleGAN
-thispersondoesnotexist.com
-OpenAI 
 

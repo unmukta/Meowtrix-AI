@@ -1,0 +1,41 @@
+{
+    "model_settings": {
+        "image_size": [
+            128,
+            128
+        ],
+        "batch_size": 32,
+        "learning_rate": 0.001,
+        "epochs": 50,
+        "validation_split": 0.15,
+        "test_split": 0.15,
+        "random_state": 42
+    },
+    "feature_extraction": {
+        "lbp_radius": 1,
+        "lbp_n_points": 8,
+        "hog_orientations": 9,
+        "hog_pixels_per_cell": [
+            16,
+            16
+        ],
+        "hog_cells_per_block": [
+            2,
+            2
+        ]
+    },
+    "dataset": {
+        "real_faces_count": 5000,
+        "fake_faces_count": 5000,
+        "target_accuracy": 0.94,
+        "target_precision": 0.93,
+        "target_recall": 0.95,
+        "target_f1": 0.94
+    },
+    "hardware_requirements": {
+        "min_ram_gb": 4,
+        "min_storage_gb": 1,
+        "cpu_cores": 2,
+        "gpu_required": false
+    }
+}

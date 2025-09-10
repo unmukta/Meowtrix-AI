@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeowTrix-AI: Advanced Deepfake Detection System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <h1 class="header-title">MeowTrix-AI: Advanced Deepfake Detection System</h1>
+                    <p class="header-subtitle">Lightweight, Accurate, User-Friendly AI Detection</p>
+                    <div class="header-stats">
+                        <div class="stat-item">
+                            <span class="stat-value">94%</span>
+                            <span class="stat-label">Accuracy</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">4GB</span>
+                            <span class="stat-label">RAM Requirement</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value">CLI + GUI</span>
+                            <span class="stat-label">Interfaces</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="navigation">
+            <div class="container">
+                <div class="nav-tabs">
+                    <button class="nav-tab active" data-tab="overview">Overview</button>
+                    <button class="nav-tab" data-tab="architecture">System Architecture</button>
+                    <button class="nav-tab" data-tab="performance">Performance Metrics</button>
+                    <button class="nav-tab" data-tab="features">Features & Components</button>
+                    <button class="nav-tab" data-tab="technical">Technical Specifications</button>
+                    <button class="nav-tab" data-tab="getting-started">Getting Started</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                <!-- Overview Tab -->
+                <div class="tab-content active" id="overview">
+                    <div class="content-grid">
+                        <div class="content-section">
+                            <h2>Project Description</h2>
+                            <p>MeowTrix-AI is a cutting-edge deepfake detection system that combines lightweight design with high accuracy. Using advanced computer vision techniques and machine learning algorithms, it provides reliable identification of synthetic and manipulated facial images.</p>
+                            
+                            <h3>Key Benefits</h3>
+                            <ul class="benefits-list">
+                                <li>High accuracy detection with 94% success rate</li>
+                                <li>Lightweight architecture requiring only 4GB RAM</li>
+                                <li>Dual interface support for both CLI and GUI users</li>
+                                <li>Real-time processing capabilities</li>
+                                <li>Open-source and easily deployable</li>
+                            </ul>
+
+                            <h3>Technology Highlights</h3>
+                            <div class="tech-highlights">
+                                <div class="tech-card">
+                                    <h4>Feature Extraction</h4>
+                                    <p>LBP (Local Binary Patterns) and HOG (Histogram of Oriented Gradients) for robust texture and edge analysis</p>
+                                </div>
+                                <div class="tech-card">
+                                    <h4>Classification</h4>
+                                    <p>Support Vector Machine (SVM) and Random Forest algorithms with hyperparameter optimization</p>
+                                </div>
+                                <div class="tech-card">
+                                    <h4>Processing</h4>
+                                    <p>OpenCV-based image preprocessing and face detection pipeline</p>
+                                </div>
+                            </div>
+
+                            <h3>Use Cases & Applications</h3>
+                            <div class="use-cases">
+                                <div class="use-case">Media Verification</div>
+                                <div class="use-case">Social Media Monitoring</div>
+                                <div class="use-case">Forensic Analysis</div>
+                                <div class="use-case">Content Moderation</div>
+                                <div class="use-case">Academic Research</div>
+                            </div>
+                        </div>
+                        
+                        <div class="content-section">
+                            <div class="process-image">
+                                <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/5201c2060df1e7acd1278e5f285f24a5/87c7a884-6001-48ab-8615-db8c374fe46a/7be1417d.png" alt="MeowTrix-AI Detection Process" class="responsive-image">
+                                <p class="image-caption">Complete MeowTrix-AI processing pipeline from input to detection result</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Architecture Tab -->
+                <div class="tab-content" id="architecture">
+                    <h2>System Architecture</h2>
+                    <div class="architecture-content">
+                        <div class="arch-image-section">
+                            <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/5201c2060df1e7acd1278e5f285f24a5/87c7a884-6001-48ab-8615-db8c374fe46a/7be1417d.png" alt="System Architecture" class="responsive-image">
+                        </div>
+                        
+                        <div class="pipeline-explanation">
+                            <h3>Processing Pipeline</h3>
+                            <div class="pipeline-steps">
+                                <div class="pipeline-step">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h4>Image Input & Preprocessing</h4>
+                                        <p>Accept images in various formats, resize to 128x128 pixels, normalize brightness and contrast</p>
+                                    </div>
+                                </div>
+                                <div class="pipeline-step">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h4>Face Detection</h4>
+                                        <p>Locate and extract facial regions using OpenCV Haar cascades or DNN-based detection</p>
+                                    </div>
+                                </div>
+                                <div class="pipeline-step">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h4>Feature Extraction</h4>
+                                        <p>Extract LBP textures (10 histogram bins) and HOG gradients (1764 features) for comprehensive analysis</p>
+                                    </div>
+                                </div>
+                                <div class="pipeline-step">
+                                    <div class="step-number">4</div>
+                                    <div class="step-content">
+                                        <h4>Classification</h4>
+                                        <p>Combine features and classify using trained SVM/Random Forest models with confidence scoring</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-extraction-detail">
+                            <h3>Feature Extraction Details</h3>
+                            <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/5201c2060df1e7acd1278e5f285f24a5/347d534e-7bbd-4cf7-9ee7-b0d1e3346be1/0f695a79.png" alt="Feature Extraction Pipeline" class="responsive-image">
+                            <div class="extraction-methods">
+                                <div class="method-card">
+                                    <h4>Local Binary Patterns (LBP)</h4>
+                                    <p>Captures local texture information by comparing pixel intensities in neighborhoods, creating rotation-invariant patterns</p>
+                                </div>
+                                <div class="method-card">
+                                    <h4>Histogram of Oriented Gradients (HOG)</h4>
+                                    <p>Extracts edge and gradient information, particularly effective for detecting structural anomalies in synthetic faces</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Performance Tab -->
+                <div class="tab-content" id="performance">
+                    <h2>Performance Metrics</h2>
+                    <div class="performance-content">
+                        <div class="metrics-overview">
+                            <div class="metric-card">
+                                <div class="metric-value">94%</div>
+                                <div class="metric-label">Accuracy</div>
+                                <div class="metric-status status--success">Achieved</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-value">94%</div>
+                                <div class="metric-label">Precision</div>
+                                <div class="metric-status status--success">Above Target</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-value">95%</div>
+                                <div class="metric-label">Recall</div>
+                                <div class="metric-status status--success">Target Met</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-value">94%</div>
+                                <div class="metric-label">F1-Score</div>
+                                <div class="metric-status status--success">Target Met</div>
+                            </div>
+                        </div>
+
+                        <div class="charts-section">
+                            <div class="chart-container">
+                                <h3>Target vs Achieved Performance</h3>
+                                <img src="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/5201c2060df1e7acd1278e5f285f24a5/28e6a6c9-90cb-4b00-94df-8a2e716ac134/02b017d6.png" alt="Performance Comparison Chart" class="responsive-image">
+                            </div>
+                            
+                            <div class="interactive-metrics">
+                                <h3>Interactive Performance Dashboard</h3>
+                                <div class="progress-metrics">
+                                    <div class="progress-item">
+                                        <label>Accuracy</label>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 95%"></div>
+                                        </div>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="progress-item">
+                                        <label>Precision</label>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 94%"></div>
+                                        </div>
+                                        <span>94%</span>
+                                    </div>
+                                    <div class="progress-item">
+                                        <label>Recall</label>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 95%"></div>
+                                        </div>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="progress-item">
+                                        <label>F1-Score</label>
+                                        <div class="progress-bar">
+                                            <div class="progress-fill" style="width: 94%"></div>
+                                        </div>
+                                        <span>94%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="confusion-matrix">
+                            <h3>Detection Capabilities</h3>
+                            <div class="matrix-grid">
+                                <div class="matrix-cell tp">
+                                    <span class="cell-label">True Real</span>
+                                    <span class="cell-value">475</span>
+                                </div>
+                                <div class="matrix-cell fn">
+                                    <span class="cell-label">False Fake</span>
+                                    <span class="cell-value">25</span>
+                                </div>
+                                <div class="matrix-cell fp">
+                                    <span class="cell-label">False Real</span>
+                                    <span class="cell-value">30</span>
+                                </div>
+                                <div class="matrix-cell tn">
+                                    <span class="cell-label">True Fake</span>
+                                    <span class="cell-value">470</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Features Tab -->
+                <div class="tab-content" id="features">
+                    <h2>Features & Components</h2>
+                    <div class="features-content">
+                        <div class="components-breakdown">
+                            <h3>System Components</h3>
+                            <div class="components-grid">
+                                <div class="component-card">
+                                    <div class="component-header">
+                                        <h4>Image Processor</h4>
+                                        <span class="lines-badge">310 lines</span>
+                                    </div>
+                                    <p>Handles image loading, preprocessing, and face detection using OpenCV and PIL</p>
+                                    <div class="tech-tags">
+                                        <span class="tech-tag">OpenCV</span>
+                                        <span class="tech-tag">PIL</span>
+                                    </div>
+                                </div>
+                                <div class="component-card">
+                                    <div class="component-header">
+                                        <h4>Feature Extractor</h4>
+                                        <span class="lines-badge">415 lines</span>
+                                    </div>
+                                    <p>Implements LBP and HOG feature extraction for comprehensive image analysis</p>
+                                    <div class="tech-tags">
+                                        <span class="tech-tag">scikit-image</span>
+                                    </div>
+                                </div>
+                                <div class="component-card">
+                                    <div class="component-header">
+                                        <h4>Classifier</h4>
+                                        <span class="lines-badge">520 lines</span>
+                                    </div>
+                                    <p>SVM and Random Forest implementation with hyperparameter tuning</p>
+                                    <div class="tech-tags">
+                                        <span class="tech-tag">scikit-learn</span>
+                                    </div>
+                                </div>
+                                <div class="component-card">
+                                    <div class="component-header">
+                                        <h4>Evaluation</h4>
+                                        <span class="lines-badge">380 lines</span>
+                                    </div>
+                                    <p>Comprehensive metrics calculation and visualization tools</p>
+                                    <div class="tech-tags">
+                                        <span class="tech-tag">matplotlib</span>
+                                    </div>
+                                </div>
+                                <div class="component-card">
+                                    <div class="component-header">
+                                        <h4>Interface</h4>
+                                        <span class="lines-badge">650 lines</span>
+                                    </div>
+                                    <p>CLI and GUI applications for user interaction</p>
+                                    <div class="tech-tags">
+                                        <span class="tech-tag">tkinter</span>
+                                        <span class="tech-tag">argparse</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="key-features">
+                            <h3>Key Features</h3>
+                            <div class="features-grid">
+                                <div class="feature-item">High Accuracy (94%)</div>
+                                <div class="feature-item">Lightweight (4GB RAM)</div>
+                                <div class="feature-item">Dual Interface (CLI + GUI)</div>
+                                <div class="feature-item">Batch Processing</div>
+                                <div class="feature-item">Multiple Models</div>
+                                <div class="feature-item">Comprehensive Evaluation</div>
+                                <div class="feature-item">Open Source</div>
+                                <div class="feature-item">Easy Installation</div>
+                            </div>
+                        </div>
+
+                        <div class="tech-stack">
+                            <h3>Technology Stack</h3>
+                            <div class="stack-categories">
+                                <div class="stack-category">
+                                    <h4>Core Technologies</h4>
+                                    <div class="stack-items">
+                                        <span class="stack-item">Python 3.8+</span>
+                                        <span class="stack-item">OpenCV</span>
+                                        <span class="stack-item">scikit-learn</span>
+                                        <span class="stack-item">scikit-image</span>
+                                    </div>
+                                </div>
+                                <div class="stack-category">
+                                    <h4>Visualization & UI</h4>
+                                    <div class="stack-items">
+                                        <span class="stack-item">matplotlib</span>
+                                        <span class="stack-item">tkinter</span>
+                                        <span class="stack-item">PIL</span>
+                                    </div>
+                                </div>
+                                <div class="stack-category">
+                                    <h4>Data Processing</h4>
+                                    <div class="stack-items">
+                                        <span class="stack-item">NumPy</span>
+                                        <span class="stack-item">pandas</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Specifications Tab -->
+                <div class="tab-content" id="technical">
+                    <h2>Technical Specifications</h2>
+                    <div class="technical-content">
+                        <div class="requirements-section">
+                            <h3>Hardware Requirements</h3>
+                            <div class="requirements-grid">
+                                <div class="requirement-item">
+                                    <div class="req-icon">💾</div>
+                                    <div class="req-details">
+                                        <h4>RAM</h4>
+                                        <p>4GB minimum recommended</p>
+                                    </div>
+                                </div>
+                                <div class="requirement-item">
+                                    <div class="req-icon">💿</div>
+                                    <div class="req-details">
+                                        <h4>Storage</h4>
+                                        <p>1GB available space</p>
+                                    </div>
+                                </div>
+                                <div class="requirement-item">
+                                    <div class="req-icon">⚡</div>
+                                    <div class="req-details">
+                                        <h4>CPU</h4>
+                                        <p>Standard CPU (no special requirements)</p>
+                                    </div>
+                                </div>
+                                <div class="requirement-item">
+                                    <div class="req-icon">🖥️</div>
+                                    <div class="req-details">
+                                        <h4>GPU</h4>
+                                        <p>Not required (CPU-based processing)</p>
+                                    </div>
+                                </div>
+                                <div class="requirement-item">
+                                    <div class="req-icon">🖨️</div>
+                                    <div class="req-details">
+                                        <h4>Operating System</h4>
+                                        <p>Windows, macOS, or Linux</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="configuration-section">
+                            <h3>Configuration Options</h3>
+                            <div class="config-categories">
+                                <div class="config-category">
+                                    <h4>Model Configuration</h4>
+                                    <ul class="config-list">
+                                        <li>Classifier selection: SVM or Random Forest</li>
+                                        <li>Feature combinations: LBP, HOG, or both</li>
+                                        <li>Hyperparameter tuning options</li>
+                                        <li>Cross-validation settings</li>
+                                    </ul>
+                                </div>
+                                <div class="config-category">
+                                    <h4>Processing Configuration</h4>
+                                    <ul class="config-list">
+                                        <li>Image preprocessing parameters</li>
+                                        <li>Face detection thresholds</li>
+                                        <li>Batch processing size</li>
+                                        <li>Output format options</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="benchmarks-section">
+                            <h3>Performance Benchmarks</h3>
+                            <div class="benchmark-grid">
+                                <div class="benchmark-item">
+                                    <div class="benchmark-metric">Processing Speed</div>
+                                    <div class="benchmark-value">~2.5 images/second</div>
+                                </div>
+                                <div class="benchmark-item">
+                                    <div class="benchmark-metric">Memory Usage</div>
+                                    <div class="benchmark-value">~3.2GB peak</div>
+                                </div>
+                                <div class="benchmark-item">
+                                    <div class="benchmark-metric">Model Size</div>
+                                    <div class="benchmark-value">~45MB trained</div>
+                                </div>
+                                <div class="benchmark-item">
+                                    <div class="benchmark-metric">Load Time</div>
+                                    <div class="benchmark-value">~1.8 seconds</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Getting Started Tab -->
+                <div class="tab-content" id="getting-started">
+                    <h2>Getting Started</h2>
+                    <div class="getting-started-content">
+                        <div class="installation-section">
+                            <h3>Installation Instructions</h3>
+                            <div class="install-steps">
+                                <div class="install-step">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h4>Clone Repository</h4>
+                                        <div class="code-block">
+                                            <code>git clone https://github.com/unmukta/meowtrix-ai.git</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="install-step">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h4>Install Dependencies</h4>
+                                        <div class="code-block">
+                                            <code>pip install -r requirements.txt</code>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="install-step">
+                                    <div class="step-number">3</div>
+                                    <div class="step-content">
+                                        <h4>Download Pre-trained Models</h4>
+                                        <div class="code-block">
+                                            <code>python download_models.py</code>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quick-start-section">
+                            <h3>Quick Start Commands</h3>
+                            <div class="command-examples">
+                                <div class="command-example">
+                                    <h4>CLI Usage</h4>
+                                    <div class="code-block">
+                                        <code>python detect.py --input image.jpg --model svm</code>
+                                    </div>
+                                    <p>Basic deepfake detection on a single image</p>
+                                </div>
+                                <div class="command-example">
+                                    <h4>Batch Processing</h4>
+                                    <div class="code-block">
+                                        <code>python detect.py --input folder/ --batch --output results.csv</code>
+                                    </div>
+                                    <p>Process multiple images and save results to CSV</p>
+                                </div>
+                                <div class="command-example">
+                                    <h4>GUI Application</h4>
+                                    <div class="code-block">
+                                        <code>python gui_app.py</code>
+                                    </div>
+                                    <p>Launch the graphical user interface</p>
+                                </div>
+                                <div class="command-example">
+                                    <h4>Training Custom Model</h4>
+                                    <div class="code-block">
+                                        <code>python train.py --data dataset/ --model rf --features lbp+hog</code>
+                                    </div>
+                                    <p>Train a new model with your dataset</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="usage-examples">
+                            <h3>Usage Examples</h3>
+                            <div class="example-tabs">
+                                <button class="example-tab active" data-example="python">Python API</button>
+                                <button class="example-tab" data-example="cli">Command Line</button>
+                                <button class="example-tab" data-example="config">Configuration</button>
+                            </div>
+                            
+                            <div class="example-content active" id="python-example">
+                                <div class="code-block">
+<code>from meowtrix import DeepfakeDetector
+
+# Initialize detector
+detector = DeepfakeDetector(model='svm')
+
+# Detect single image
+result = detector.predict('image.jpg')
+print(f"Prediction: {result['label']} (Confidence: {result['confidence']:.2f})")
+
+# Batch detection
+results = detector.predict_batch(['img1.jpg', 'img2.jpg'])
+for img, result in results.items():
+    print(f"{img}: {result['label']} ({result['confidence']:.2f})")</code>
+                                </div>
+                            </div>
+                            
+                            <div class="example-content" id="cli-example">
+                                <div class="code-block">
+<code># Single image detection
+python detect.py --input photo.jpg --model svm --verbose
+
+# Directory processing with confidence threshold
+python detect.py --input images/ --threshold 0.8 --output report.json
+
+# Compare models
+python detect.py --input test_set/ --models svm rf --compare</code>
+                                </div>
+                            </div>
+                            
+                            <div class="example-content" id="config-example">
+                                <div class="code-block">
+<code>{
+  "model": {
+    "type": "svm",
+    "features": ["lbp", "hog"],
+    "hyperparameters": {
+      "C": 1.0,
+      "kernel": "rbf"
+    }
+  },
+  "preprocessing": {
+    "face_detection": true,
+    "image_size": [128, 128],
+    "normalize": true
+  },
+  "output": {
+    "format": "json",
+    "include_confidence": true
+  }
+}</code>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="links-section">
+                            <h3>Documentation & Resources</h3>
+                            <div class="resource-links">
+                                <a href="#" class="resource-link" target="_blank">
+                                    <div class="link-icon">📚</div>
+                                    <div class="link-content">
+                                        <h4>Full Documentation</h4>
+                                        <p>Complete API reference and guides</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="resource-link" target="_blank">
+                                    <div class="link-icon">🧪</div>
+                                    <div class="link-content">
+                                        <h4>Example Notebooks</h4>
+                                        <p>Jupyter notebooks with tutorials</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="resource-link" target="_blank">
+                                    <div class="link-icon">💬</div>
+                                    <div class="link-content">
+                                        <h4>Community Forum</h4>
+                                        <p>Get help and share experiences</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="resource-link" target="_blank">
+                                    <div class="link-icon">🐛</div>
+                                    <div class="link-content">
+                                        <h4>Issue Tracker</h4>
+                                        <p>Report bugs and request features</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

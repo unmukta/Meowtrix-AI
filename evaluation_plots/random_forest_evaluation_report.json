@@ -1,0 +1,19 @@
+{
+    "model_name": "random_forest",
+    "metrics": {
+        "accuracy": 0.992,
+        "precision": 0.9906914893617021,
+        "recall": 0.9933333333333333,
+        "f1_score": 0.9920106524633822,
+        "specificity": 0.9906666666666667,
+        "roc_auc": 0.9993973333333334,
+        "pr_auc": 0.999450757314021
+    },
+    "classification_report": "              precision    recall  f1-score   support\n\n        Fake       0.99      0.99      0.99       750\n        Real       0.99      0.99      0.99       750\n\n    accuracy                           0.99      1500\n   macro avg       0.99      0.99      0.99      1500\nweighted avg       0.99      0.99      0.99      1500\n",
+    "plots": [
+        "confusion_matrix",
+        "roc_curve",
+        "pr_curve"
+    ],
+    "evaluation_timestamp": "2025-09-02T23:09:44.759086"
+}

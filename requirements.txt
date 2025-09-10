@@ -1,0 +1,35 @@
+# MeowTrix-AI Deepfake Detection System Requirements
+
+# Core Machine Learning
+scikit-learn>=1.3.0
+numpy>=1.21.0
+pandas>=1.5.0
+joblib>=1.2.0
+
+# Image Processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+scikit-image>=0.21.0
+
+# GUI and Visualization
+tkinter>=8.6.0  # Usually included with Python
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Logging and Configuration
+logging>=0.4.9.6  # Usually included with Python
+json>=2.6.0  # Usually included with Python
+
+# Optional: For enhanced performance
+# tensorflow>=2.13.0  # For future deep learning models
+# torch>=2.0.0  # PyTorch for future implementations
+
+# Development and Testing (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.0.0
+
+# Documentation (optional)
+sphinx>=7.1.0
+sphinx-rtd-theme>=1.3.0

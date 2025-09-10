@@ -18,7 +18,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/Meowtrix-AI.git
+   git clone https://github.com/unmukta/Meowtrix-AI.git
    cd Meowtrix-AI
 
 2. Rename ok folder to .git 

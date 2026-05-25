@@ -332,14 +332,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/meowtrix-ai/issues)
 - **Documentation**: [Project Wiki](https://github.com/yourusername/meowtrix-ai/wiki)
-- **Email**: support@meowtrix-ai.com
+- **Email**: unmuktad@gmail.com
 
 ---
 
-<div align="center">
-
-**Made with ❤️ by the MeowTrix-AI Team**
-
-*Protecting digital authenticity, one detection at a time* 🐱
-
-</div>
+>
